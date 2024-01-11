@@ -1,0 +1,520 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: blue;
+}
+a{
+  text-decoration: none;
+}
+.saralogo{
+  margin-left: 2%;
+  position: fixed;
+}
+.nav2{
+  font-family: 'Arimo', sans-serif;
+  color:blue;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  margin-left: 2%;
+  margin-top: 13%;
+  gap:10px;
+  position: fixed;
+}
+.ponto{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.fundobranco{
+  background-color: white;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  width: 97%;
+  height: 95%;
+  align-items: center;
+  position: fixed;
+  z-index: -1;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+}
+.aba{
+  position: fixed;
+ margin-left: 1.5%;
+  margin-top: 35%;
+  max-height:200px;
+  z-index: 1;
+}
+.apps{
+display: flex;
+flex-direction:column;
+}
+.app{
+  margin-left: 2.2%;
+  margin-top: 37%;
+  position: fixed;
+  height: 35px;
+  width: 35px;
+  z-index: 2;
+}
+.app1{
+  margin-left: 1.5%;
+  margin-top: 41%;
+  position: fixed;
+  height: 30px;
+  width: 50px;
+  z-index: 2;
+}
+.app2{
+  margin-left: 2%;
+  margin-top: 45%;
+  position: fixed;
+  height: 30px;
+  width: 40px;
+  z-index: 2;
+}
+.container{
+  background-color: blue;
+  width: 100vw;
+  height: 1.8%;
+  position: fixed;
+}
+.container25{
+  background-color: blue;
+  width: 100vw;
+  height: 4.5%;
+  margin-top: 51.5%;
+  position: fixed;
+  z-index: 5;
+}
+.titulo{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  margin-top: 12%;
+  margin-left: 34%;
+  z-index:2;
+  text-transform: uppercase;
+}
+.tytulo{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+position: absolute;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-left: 35px;
+  z-index:2;
+  text-transform: uppercase;
+}
+.tytul0{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+position: absolute;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-left: 155px;
+  z-index:2;
+  text-transform: uppercase;
+}
+.tytul01{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+position: absolute;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-left: 118px;
+  z-index:2;
+  text-transform: uppercase;
+}
+.titulo1{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  margin-top: 30.8%;
+  margin-left: 34%;
+  z-index:2;
+  text-transform: uppercase;
+}
+.titulo2{
+  color:white;
+  font-family: 'Arimo', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  margin-top: 3.8%;
+  margin-left: 34%;
+  z-index:2;
+  text-transform: uppercase;
+}
+.reg13{
+  position: absolute;
+  margin-top: 11.3%;
+  margin-left: 33%;
+  max-width: 430px;
+  height:35px;
+}
+.reg133{
+  position: absolute;
+  margin-top: -14%;
+  margin-left: 0%;
+  max-width: 230px;
+  height:35px;
+}
+.reg131{
+  position:absolute;
+  margin-top: 30%;
+  margin-left: -59%;
+  max-width: 430px;
+  height:35px;
+}
+.reg132{
+
+  margin-top: 3%;
+  margin-left: 33%;
+  max-width: 430px;
+  height:35px;
+}
+
+#galeria > div{
+  float:left;
+  margin-top: 25%;
+  width:22%;
+}
+#galeria1 > div{
+  float:left;
+  margin-top: 25%;
+  width:22%;
+}
+#galeria2 > div{
+  float:left;
+  margin-top: 3%;
+  width:44%;
+}
+#galeria3 > div{
+  float:left;
+  margin-top: 3%;
+  width:22%;
+}
+#galeria4 > div{
+  float:left;
+  margin-top: 3%;
+  width:29.3%;
+}
+
+.foto img{
+  width:100%;
+  display:block;
+}
+.foto1 img{
+
+  width:100%;
+  display:block;
+}
+.foto2 img{
+
+  width:100%;
+  display:block;
+}
+.foto3 img{
+
+  width:100%;
+  display:block;
+}
+.foto4 img{
+
+  width:100%;
+  display:block;
+}
+#foto13 img{
+  margin-left: 100%;
+margin-top: -156%;
+}
+.detalhes{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100.5%;
+  margin-left:-55.6% ;
+}
+.detalhos{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100.5%;
+  margin-left:-55.6% ;
+}
+.detalhes1{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -200.5%;
+  margin-left:-255.6% ;
+  z-index: 5;
+}
+.detalhos1{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -200.5%;
+  margin-left:-255.6% ;
+  z-index: 5;
+}
+.detalhes2{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100%;
+  margin-left:-100% ;
+}
+.detalhos2{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100%;
+  margin-left:-100% ;
+}
+.detalhes3{
+  display:none;
+  width: 150vw;
+  height: 300vh;
+  margin-top: -180%;
+  margin-left:-90% ;
+}
+.detalhos3{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100%;
+  margin-left:-100% ;
+}
+
+.detalhes4{
+  display:none;
+  width: 150vw;
+  height: 300vh;
+  margin-top: -180%;
+  margin-left:-90% ;
+}
+.detalhos4{
+  display:none;
+  width: 150vw;
+  height: 150vh;
+  margin-top: -100%;
+  margin-left:-100% ;
+}
+
+.foto:target .detalhes{
+  display:block;
+  position: absolute;
+  z-index: -5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.foto3:target .detalhes3{
+  display:block;
+  position:absolute;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.foto4:target .detalhes4{
+  display:block;
+  position:absolute;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.foto:target .detalhos{
+  display:block;
+  position:absolute;
+  z-index: 1000;
+}
+
+.foto1:target .detalhos1{
+  display:block;
+  position: absolute;
+  z-index: 1000;
+}
+.foto2:target .detalhos2{
+  display:block;
+  position: absolute;
+  z-index: 1000;
+}
+.foto3:target .detalhos3{
+  display:block;
+  position: absolute;
+  z-index: 1000;
+}
+.foto4:target .detalhos4{
+  display:block;
+  position: absolute;
+  z-index: 1000;
+}
+.foto1:target .detalhes1{
+  display:block;
+  position:absolute;
+  z-index: -5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.foto2:target .detalhes2{
+  display:block;
+  position: absolute;
+  z-index: -5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.foto3:target .detalhes3{
+  display:block;
+  position: absolute;
+  z-index: -5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.foto4:target .detalhes4{
+  display:block;
+  position: absolute;
+  z-index: -5;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#galeria,#galeria4{
+  margin-left: 33%;
+}
+.content1{
+  margin-top: -50%;
+}
+.content1:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.content:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.content2:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.botao:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.botao1:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.botao2:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.botao3:hover{
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+.botao{
+  position: absolute;
+  margin-top: 11.3%;
+  margin-left: 74.5%;
+  max-width: 230px;
+  height:35px;
+
+}
+.botao1{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 74.5%;
+  max-width: 230px;
+  height:35px;
+}
+.botao2{
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 74.5%;
+  max-width: 230px;
+  height:35px;
+}
+.botao3{
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 74.5%;
+  max-width: 230px;
+  height:35px;
+}
+
+#galeria .foto:target{
+  position:fixed;
+  height:50%;
+  width: 50%;
+  top:-30%;
+  left:25%;
+  z-index: 125;
+}
+#galeria2 .foto2:target{
+  position:fixed;
+  height:50%;
+  width: 50%;
+  top:10%;
+  left:30%;
+  z-index: 5;
+}
+#galeria3 .foto3:target{
+  position:fixed;
+  height:34.3%;
+  width: 34.3%;
+  top:-5.55%;
+  left:30%;
+  z-index: 5;
+}
+
+#galeria4 .foto4:target{
+  position:fixed;
+  height:60%;
+  width: 60%;
+  top:15%;
+  left:20%;
+  z-index: 5;
+}
+
+#galeria2 #foto9:target{
+
+  height:40%;
+  width:40%;
+
+}
+
+
+#galeria2 #foto9:target .detalhes2{
+margin-top: -150%;
+}
+#galeria1{
+  margin-left:31.89%;
+  padding-right: 10%;
+}
+#galeria2{
+  padding-left: 33%;
+}
+#galeria3{
+  padding-left: 33%;
+}
+
+
+#galeria1 .foto1:target{
+position: fixed;
+  height: 25%;
+  width: 25%;
+  top:-15%;
+  left:35%;
+  z-index: 5;
+ padding: 0;
+}
+#foto16{
+  padding-bottom: 5%;
+}

@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: blue;
+}
+a{
+  text-decoration: none;
+}
+.saralogo{
+  margin-left: 2%;
+  position: fixed;
+}
+.nav2{
+  font-family: 'Arimo', sans-serif;
+  color:blue;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  margin-left: 2%;
+  margin-top: 13%;
+  gap:10px;
+  position: fixed;
+}
+.ponto{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.fundobranco{
+  background-color: white;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  width: 97%;
+  height: 95%;
+  align-items: center;
+  position: fixed;
+  z-index: -1;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+}
+.aba{
+  position: fixed;
+ margin-left: 1.5%;
+  margin-top: 35%;
+  max-height:200px;
+  z-index: 1;
+}
+.apps{
+display: flex;
+flex-direction:column;
+}
+.app{
+  margin-left: 2.2%;
+  margin-top: 37%;
+  position: fixed;
+  height: 35px;
+  width: 35px;
+  z-index: 2;
+}
+.app1{
+  margin-left: 1.5%;
+  margin-top: 41%;
+  position: fixed;
+  height: 30px;
+  width: 50px;
+  z-index: 2;
+}
+.app2{
+  margin-left: 2%;
+  margin-top: 45%;
+  position: fixed;
+  height: 30px;
+  width: 40px;
+  z-index: 2;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+}
+.content1{
+  margin-top: 1.5%;
+  margin-left: 21.75%;
+  max-width: 980px;
+  margin-bottom: 1%;
+}
+.content{
+  margin-left: 21.75%;
+  max-width: 980px;
+  margin-bottom: 1%;
+}
+.container{
+  background-color: blue;
+  width: 100vw;
+  height: 1.8%;
+  position: fixed;
+}
+.container25{
+  background-color: blue;
+  width: 100vw;
+  height: 4.5%;
+  margin-top: 51.5%;
+  position: fixed;
+}
+.nome{
+  margin-left: 73%;
+  font-family: 'Homenaje', sans-serif;
+  color:white;
+  margin-top: 8%;
+  font-size: 80px;
+}
+.nome1{
+  margin-left: 35%;
+  margin-right: 5%;
+  font-family: 'Arimo', sans-serif;
+  color:white;
+  margin-top: 3%;
+  font-size: 20px;
+  text-align: right;
+}
+.nome2{
+  margin-left: 82%;
+  font-family: 'Homenaje', sans-serif;
+  color:white;
+  margin-top: 1%;
+  font-size: 50px;
+}
+.imgs{
+  display: flex;
+  flex-direction:row;
+  margin-left: 65%;
+  gap:20px;
+  position: absolute;
+}
+
+.uso,.uso1,.uso2,.uso3,.uso4,.uso5{
+  max-width: 50px;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.botao{
+  margin-left: 80%;
+  margin-top: 9%;
+  width: 16%;
+}
+
+.botao:hover{
+  transition: transform 200ms;
+  transform: scale(1.1);
+}

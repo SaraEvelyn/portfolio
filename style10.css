@@ -1,0 +1,218 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+section{
+  width: 100%;
+  height: 100vh;
+  position:relative;
+}
+section div .videodiv{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.video{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position: center;
+  z-index:0;
+  position:absolute;
+}
+
+section .videodiv img{
+  width:45%;
+  height:100%;
+  position:relative;
+}
+.yoko{
+  position:relative;
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 30px;
+}
+.yokoSlogan{
+  margin-top:0%;
+  margin-left:5%;
+}
+.slogan{
+  position:relative;
+
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 15px;
+}
+p{
+  position:relative;
+  color:white;
+}
+.info{
+  justify-content: space-between;
+  display:flex;
+  margin-top: -40px;
+}
+.about{
+  justify-content: space-between;
+  margin-right: 8%;
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 22px;
+  position:relative;
+  color:white;
+  text-decoration: none;
+}
+.gallery{
+  margin-left:75%;
+  color:white;
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 22px;
+  position:relative;
+  text-decoration: none;
+}
+.header{
+  margin-top: -78%;
+}
+.concept{
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 22px;
+  margin-left:330px;
+}
+.yokoaiko{
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 100px;
+  margin-left:15%;
+}
+.email{
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 22px;
+  margin-left:110px;
+}
+
+.info2{
+  margin-top: 9%;
+}
+
+.logos{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:normal;
+  max-width: 60px;
+  gap: 15px;
+  margin-top: 10%;
+  margin-left: 93%;
+}
+.line{
+  display: block; 
+  height: auto; 
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 13px;
+  max-width:1.3px;
+  max-height: 30px;
+}
+.ttk{
+  display: block; 
+  height: auto; 
+  align-items: center;
+  max-width: 25px;
+  max-height: 25px;
+}
+.discord{
+  display: block; 
+  height: auto; 
+  align-items: center;
+}
+
+
+.imagem{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imagens{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:normal;
+  margin:20px;
+  margin-top:6%;
+}
+.homeImagens{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:normal;
+}
+.retangulo{
+  width: 100%;
+  height: 300px;
+  background-color:#101A24;
+  margin:0;
+  position: absolute;
+}
+.rec2{
+  max-height: 300px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 64.3%;
+  position: absolute;
+}
+.logos2{
+  margin-top: -20px;
+  margin-left: 83%;
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:baseline;
+  gap:25px;
+}
+.discord2{
+  max-width: 35px;
+  max-height: 25px;
+  position:relative;
+}
+.discord3{
+  max-width: 40px;
+  max-height: 30px;
+  position:relative;
+}
+.textofooter{
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 10%;
+  position: relative;
+}
+.textofooter2{
+  font-family: 'Alegreya Sans SC', regular;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 0%;
+  position: relative;
+}
+
+/* Styles for the back to top button */
+#myBtn {
+    
+    position: relative;
+    font-family: 'Alegreya Sans SC', regular;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 48%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+
